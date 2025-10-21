@@ -242,7 +242,7 @@ app.post('/send-message', async (req, res) => {
 app.post('/test-message', async (req, res) => {
   // Use um número de teste aqui
   const testData = {
-    phone: '5511999999999', // Substitua por um número real para teste
+    phone: '5577988556030', // Substitua por um número real para teste
     athleteName: 'João Silva',
     month: 'Janeiro/2024',
     value: '150.00'
