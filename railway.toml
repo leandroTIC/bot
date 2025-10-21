@@ -1,0 +1,9 @@
+[build]
+builder = "nixpacks"
+
+[build.args]
+NIXPACKS_BUILD_CMD = "npm install"
+
+[deploy]
+startCommand = "node main.js"
+restartPolicyType = "ON_FAILURE"
